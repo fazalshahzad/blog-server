@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();//All the Classes of Express FrameWork in App now you can get any class with (.) bracket is use because its a class
 const ApplicationConfig = require ('./Configration/LoadMyConfig-Env-file')
 const ResponseOfMyDataBaseConnection = require("./Configration/DatabaseConfigration");
-const PORT = process.env.PORT||5050;
+const PORT = process.env.PORT||8686;
 //Block Dependencies
 
 
